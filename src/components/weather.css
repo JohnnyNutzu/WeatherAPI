@@ -1,0 +1,102 @@
+.location {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin: 10rem 30rem 10rem 30rem;
+    background-color: rgba(20, 64, 224, 0.5);
+    align-items: center;
+    
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.location h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    background-image: linear-gradient(to left, #09090955, #260017);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 0.3rem;
+}
+.location p {
+    font-weight: bolder;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.description {
+    display: flex;
+    background-color: rgba(222, 249, 162, 0.2);
+    padding: 1rem;
+    font-style: oblique;
+    font-weight: bolder;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.weather-icon {
+    width: 200px;
+    height: 200px;
+}
+@media screen and (max-width: 1440px) {
+    .location {
+        margin: 0rem 10rem 3rem 10rem;
+    }
+    .location h1 {
+        font-weight: 800;
+        font-style: italic;
+        font-size: 2rem;
+        background-image: linear-gradient(to left, #09090955, #260017);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0.3rem;
+      }
+      .location p {
+        font-weight: bolder;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    .description {
+        background-color: rgba(222, 249, 162, 0.2);
+        padding: 1rem;
+        font-style: oblique;
+        font-weight: bolder;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .location {
+        margin: 0rem 3rem 1rem 3rem;
+    }
+    .location h1 {
+        font-weight: 800;
+        font-style: italic;
+        font-size: 2rem;
+        background-image: linear-gradient(to left, #09090955, #260017);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 0.3rem;
+    }
+    .location p {
+        font-weight: bolder;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    .description {
+        background-color: rgba(222, 249, 162, 0.2);
+        padding: 1rem;
+        font-style: oblique;
+        font-weight: bolder;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+}
