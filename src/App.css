@@ -1,194 +1,197 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
-  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image:url('./qQa5Pd7.webp');
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+    font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image:url('./qQa5Pd7.webp');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 .scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .gradient-text {
-  background-image: linear-gradient(to right, #c0b73b, #fff566);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #c0b73b, #fff566);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .radial-text {
-  background-image: radial-gradient(circle at center, #ed5173, #cc9c33);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(circle at center, #ed5173, #cc9c33);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .App {
-  height: 100vh;
-  width: 100%;
-  padding: 4rem 4rem;
-  display: flex;
-  flex-direction: column; 
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column; 
 }
 
 .searchBox {
-  position: absolute;
-  top: 3%;
-  left: 50%;
-  transform:  translate(-50%,50%);
-  background: #e7e9ec;
-  height: 100px;
-  border-radius: 40px;
-  padding: 10px;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #e7e9ec;
+    height: 100px;
+    border-radius: 40px;
+    padding: 10px;
 
 }
 
 .searchBox:hover > .searchInput {
-  width: 350px;
-  padding: 0 20px;
+    width: 350px;
+    padding: 0 20px;
 }
 
 .searchBox:hover > .searchButton {
-background: white;
-color : #2f3640;
+    background: white;
+    color : #2f3640;
 }
 
 .searchButton {
-  padding: 10px;
-  color: white;
-  float: right;
-  width: 100px;
-  height: 80px;
-  border-radius: 50%;
-  background: #2f3640;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
+    padding: 10px;
+    color: white;
+    float: right;
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
 }
 
 .searchInput {
-  border:none;
-  background: none;
-  outline:none;
-  float:left;
-  padding: 0;
-  color: white;
-  font-size: 50px;
-  transition: 0.4s;
-  line-height: 40px;
-  width: 0px;
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 50px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
 
 }
 .information {
-  margin: 2rem;
-  position:bottom;
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(255,255,255, 0.2);
-  font-size: 2rem;
-  align-items: center;
+    font: "roboto";
+    margin: 2rem;
+    color: white;
+    position:bottom;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255, 0.2);
+    font-size: 2rem;
+    align-items: center;
 }
 .sunset p,
 .sunrise p {
-  font-style: oblique;
-  font-weight: bolder;
+    font-style: oblique;
+    font-weight: bolder;
 }
 .bottom .bold {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 .bottom {
-  flex: 1;
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  padding: 1rem;
-  height: 100%;
-  text-align: center;
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 1rem;
+    height: 100%;
+    text-align: center;
 }
 .bottom .info-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo {
-  width: 100px;
-  height: 70px;
-  margin-bottom: 0;
-  margin-left: 0;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 
 
 @media screen and (max-width: 1160px) {
 .searchBox:hover > .searchInput {
-  width: 200px;
-  padding: 0 6px;
+    width: 200px;
+    padding: 0 6px;
 }
 body {
-  background-position: 70%;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media screen and (max-width: 770px) {
-  body {
-  background-position: 60%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-  .App {
+body {
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.App {
     padding: 1rem;
-  }
-  .searchBox {
+}
+.searchBox {
     height: 60px;
     border-radius: 40px;
     padding: 10px;
   
-  }
-  .searchInput {
+}
+.searchInput {
     font-size: 30px;
     transition: 0.4s;
     line-height: 30px;
     width: 0px;
   
-  }
-  .searchButton {
+}
+.searchButton {
     width: 50px;
     height: 40px;
     border-radius: 50%;
   }
-  .searchBox:hover > .searchInput {
+.searchBox:hover > .searchInput {
     width: 200px;
     padding: 0 6px;
-  }
+}
 
-  .information {
+.information {
     margin: 1rem;
     font-size: 1rem;
-  }
-  .bottom .bold {
+}
+.bottom .bold {
     font-size: 1rem;
-  }
-  .logo {
+}
+.logo {
     width: 50px;
     height: 20px;
-  }
+  
+}
 }
 @media screen and (max-height: 700px){
-  body {
+body {
     background-position: 40%;
     background-repeat: no-repeat;
     background-size: cover;

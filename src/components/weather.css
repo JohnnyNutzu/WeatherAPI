@@ -1,5 +1,6 @@
 .location {
     display: flex;
+    color: blanchedalmond;
     flex-direction: column;
     text-transform: capitalize;
     margin: 10rem 30rem 10rem 30rem;
@@ -14,10 +15,7 @@
 .location h1 {
     font-weight: 700;
     font-size: 5rem;
-    background-image: linear-gradient(to left, #09090955, #260017);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #f0e9e9f7;
     border-radius: 0.3rem;
 }
 .location p {
